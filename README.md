@@ -1,40 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ignite Shop
 
-## Getting Started
+# Sobre o projeto
 
-First, run the development server:
+O Ignite shop é uma aplicação front end, desenvolvida durante o curso de React ministrado pela [Rocketseat](https://www.rocketseat.com.br "Site da Rocketseat"). Esse projeto foi construído com finalidade didática com foco no aprendizado do fremework NextJS.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O projeto é um e-commerce, que nesse caso, efetua vendas de camisetas. Para o desenvolvimento foi utilizada a plataforma de processamento de pagamentos Stripe. Todos os produtos foram cadastrados dentro do Stripe e integrados via API com a aplicação.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Durante a concepção do projeto foram vistos e trabalhados conceitos como SSR (Server Side Rendering) e SSG (Static Site Generation).
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Layout Web
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+![Web_1](https://github.com/SavioCaetano/assets/raw/main/assets-igniteShop/igniteShop-home.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![Web_2](https://github.com/SavioCaetano/assets/raw/main/assets-igniteShop/igniteShop-product.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Web_3](https://github.com/SavioCaetano/assets/raw/main/assets-igniteShop/igniteShop-payment.png)
 
-## Learn More
+![Web_4](https://github.com/SavioCaetano/assets/raw/main/assets-igniteShop/igniteShop-checkout.png)
 
-To learn more about Next.js, take a look at the following resources:
+# Tecnologias utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ReactJS
+- NextJS
+- HTML / CSS / TypeScript
+- Axios
+- Keen Slider
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Autor
 
-## Deploy on Vercel
+Sávio Cardoso Caetano
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[![Linkedin Badge](https://img.shields.io/badge/-SavioCaetano-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/savio-c-caetano/)](https://www.linkedin.com/in/savio-c-caetano/)
